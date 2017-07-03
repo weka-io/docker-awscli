@@ -1,4 +1,4 @@
-FROM alpine:3.3
+FROM alpine:3.6
 
 RUN apk -Uuv add groff less python py-pip && \
     pip install awscli && \
